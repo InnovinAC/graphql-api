@@ -1,0 +1,15 @@
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    username: String!
+    age: Int!
+    nationality: UserNationality!
+}
+
+enum UserNationality {
+     NIGERIAN
+     UGANDIAN
+     KENYIAN
+     GHANAIAN
+}
